@@ -1,5 +1,6 @@
 package com.phone;
 
-public class Ringable {
-
+public interface Ringable {
+	String ring();
+	String unlock();
 }
